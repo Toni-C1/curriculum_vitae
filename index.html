@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- flags css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
 </head>
 <body>
     <div class="d-none d-lg-block">
@@ -16,7 +19,7 @@
             <div class="px-2">
                 <h1>Cuenca Antonio</h1>
 
-                <h3>Desarrollador de software y dispositivos electrónicos</h3>
+                <h3 id="sub_1">Desarrollador de software</h3>
 
                 <a class="pe-2" href="https://www.linkedin.com/in/antoniodavidcuenca" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -25,7 +28,10 @@
                 <a href="https://github.com/Toni-C1" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                 </svg></a>
-                
+                <div class="position-absolute top-0 end-0">
+                    <button id="esp_1" type="button"><span class="fi fi-ar"></span></button>
+                    <button id="ing_1" type="button"><span class="fi fi-gb"></span></button>
+                </div>
             </div>
         </nav>
     </div>
@@ -40,7 +46,7 @@
                     <div class="col-10">
                         <h1>Cuenca Antonio</h1>
 
-                        <h3>Desarrollador de software y dispositivos electrónicos</h3>
+                        <h3 id="sub_2">Desarrollador de software</h3>
 
                         <a class="pe-2" href="https://www.linkedin.com/in/antoniodavidcuenca" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -49,8 +55,10 @@
                         <a href="https://github.com/Toni-C1" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                         </svg></a>
-                        
-                           
+                        <div class="position-absolute top-0 end-0">
+                            <button id="esp_2" type="button"><span class="fi fi-ar"></span></button>
+                            <button type="button" id="ing_2"><span class="fi fi-gb"></span></button>
+                        </div>
                     </div>
                     
                 </div>
@@ -65,26 +73,26 @@
             
             <div class="d-none d-lg-block col-sm-12 col-md-12 col-lg-3 col-xl-3">
                 <img class="col-4" id="foto" src="src/foto_cv.jpg" alt="foto CV">
-                <p>EDAD: 31 años</p>
+                <p id="edad_1" class="py-s">31 años</p>
                 <p>DNI: 35.894.150</p>
-                <p>RESIDENCIA: Córdoba, Argentina</p>
+                <p>Córdoba, Argentina</p>
 
-                <p>IDIOMAS: Inglés, nivel intermedio</p>
+                <p id="idiomas">Inglés, nivel intermedio</p>
 
                 <p>TEL: +54 3571-418216</p>
-                <p>CORREO ELECTRÓNICO: acuencautn@gmail.com</p>
+                <p>E-mail: acuencautn@gmail.com</p>
                 
                 
-                <a href="src/Cuenca Antonio D.pdf" download="Cuenca Antonio D">Descargar CV</a>
+                <a id="des_ 1" href="src/Cuenca Antonio D.pdf" download="Cuenca Antonio D">Descargar CV</a>
             </div>
             
 
             <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9">
                 <section id="conocimientos">
-                    <h2>CONOCIMIENTOS</h2>
+                    <h2 id="skills">CONOCIMIENTOS</h2>
                     
                     <article>
-                        <h4>Programación</h4>
+                        <h4 id="prog">Programación</h4>
                         <ul>
                             <li>Python, Django, Pandas, Tkinter, FastAPI</li>
                             <li>HTML, CSS</li>
@@ -92,108 +100,108 @@
                             <li>SQL</li>
                             <li>C</li>
                             <li>PowerBI</li>
-                            <li>Metodologías Ágiles - SCRUM </li>
+                            <li id="agile">Metodologías Ágiles - SCRUM </li>
                         </ul>
 
-                        <h4>Electrónica</h4>
+                        <h4 id="elec">Electrónica</h4>
 
-                        <h4>Computación</h4>
+                        <h4 id="comp">Computación</h4>
 
-                        <h4>Mecánica</h4>
+                        <h4 id="mec">Mecánica</h4>
                     </article>
                 </section>
 
-                <section id="logros">
-                    <h2>LOGROS</h2>
+                <section>
+                    <h2 id="logros">LOGROS</h2>
 
                     <article>
                         <ul>
-                            <li>Desarrollo de aplicación web para gestión de
+                            <li id="l1">Desarrollo de aplicación web para gestión de
                                 emprendimiento</li>
-                            <li>Diseño y construcción de equipos de monitoreo
+                            <li id="l2">Diseño y construcción de equipos de monitoreo
                                 ambiental y energético</li>
-                            <li>Diseño y construcción de sistemas de automatización en
+                            <li id="l3">Diseño y construcción de sistemas de automatización en
                                 industrias</li>
-                            <li>Gestión de equipo de trabajo (6 personas)</li>
-                            <li>Reparación de equipamiento de alta complejidad</li>
+                            <li id="l4">Gestión de equipo de trabajo (6 personas)</li>
+                            <li id="l5">Reparación de equipamiento de alta complejidad</li>
                         </ul>
                     </article>
                 </section>
 
                 <section id="experiencia">
-                    <h2>EXPERIENCIA LABORAL</h2>
+                    <h2 id="exp">EXPERIENCIA LABORAL</h2>
 
                     <article>
                         <ul>
-                            <li>2022 - Desarrollador Freelance</li>
-                            <li>2020/2022 - Nativa S.R.L., equipos e insumos médicos</li>
+                            <li id="e1">2022 - Desarrollador Freelance</li>
+                            <li id="e2">2020/2022 - Nativa S.R.L., equipos e insumos médicos</li>
                                 <ul>
-                                    <li>Puesto: Encargado de Servicio Técnico y Pos venta</li>
-                                    <li>Tareas: Gestión de área y equipo de trabajo</li>
+                                    <li id="e3">Puesto: Encargado de Servicio Técnico y Pos venta</li>
+                                    <li id="e4">Tareas: Gestión de área y equipo de trabajo</li>
                                 </ul>
-                            <li>2017/2020 - Nativa S.R.L. L., equipos e insumos médicos</li>
+                            <li id="e5">2017/2020 - Nativa S.R.L. L., equipos e insumos médicos</li>
                                 <ul>
-                                    <li>Puesto: Técnico especialista</li>
-                                    <li>Tareas: Reparación de equipamiento médico, desarrollo de
+                                    <li id="e6">Puesto: Técnico especialista</li>
+                                    <li id="e7">Tareas: Reparación de equipamiento médico, desarrollo de
                                         protocolos de mantenimiento, confección de presupuestos,
                                         capacitaciones</li>
                                 </ul>
-                            <li>2013/2017 - Centro de Investigación Química Ambiental UTN</li>
+                            <li id="e8">2013/2017 - Centro de Investigación Química Ambiental UTN</li>
                                 <ul>
-                                    <li>Puesto: Técnico Electrónico.</li>
-                                    <li>Tareas: Desarrollo ,reparación y mantenimiento de equipamiento de medisión ambiental</li>
+                                    <li id="e9">Puesto: Técnico Electrónico.</li>
+                                    <li id="e10">Tareas: Desarrollo ,reparación y mantenimiento de equipamiento de medisión ambiental</li>
                                 </ul>
                         </ul>
                     </article>
                 </section>
                 <section id="formación">
-                    <h2>ESTUDIOS</h2>
+                    <h2 id="est">ESTUDIOS</h2>
                         <article>
                             <ul>
-                                <li>2009/incompleto - INGENIERIA ELECTRÓNICA -
+                                <li id="f1">2009/incompleto - INGENIERIA ELECTRÓNICA -
                                     Universidad Tecnológica Nacional
-                                    Facultad Regional de Córdoba, cursado hasta 5 º año completo .</li>
-                                <li>2008 - BACHILLER TECNICO EN MANTENIMIENTO ELECTRÓNICO - 
+                                    Facultad Regional de Córdoba, cursado hasta 5 º año completo.</li>
+                                <li id="f2">2008 - BACHILLER TECNICO EN MANTENIMIENTO ELECTRÓNICO - 
                                     Instituto Provincial
                                     de Enseñanza Media Nº 266 General Savio (Rio Tercero, Córdoba)</li>
                             </ul>
                         </article>
 
-                        <h3>Cursos y capacitaciones</h3>
+                        <h3 id="cursos">Cursos y capacitaciones</h3>
                         <article>
                             <ul>
-                                <li>2023/Cursando 
+                                <li id="c1">2023/Cursando 
                                     - Curso completo de Machine Learning: Data Science en Python
                                     - Udemy
-                                    - Instru ctor Juan Gabriel Gomila</li>
-                                <li>2023/Cursando  
+                                    - Instructor Juan Gabriel Gomila</li>
+                                <li id="c2">2023/Cursando  
                                     - Primeros pasos en el desarrollo frontend
                                     - TYCMAS, Academy</li>
-                                <li>2022 
+                                <li id="c3">2022 
                                     - Scrum Master y Product Owner Certificación Año 2022
                                     - Udemy
                                     - Instructor Alvaro Chirou</li>
-                                <li>2022 - 
+                                <li id="c4">2022 - 
                                     CURSO DE TELEDETECCIÓN ÓPTICA NIVEL INTRODUCTORIO
                                     - CONAE
                                     - Duración 30 hs</li>
-                                <li>2022
+                                <li id="c5">2022
                                     - GIT + GitHub
                                     - Udemy
                                     - Instructor Fernando Herra</li>
-                                <li>2022
+                                <li id="c6">2022
                                     - CURSO DATA ANALYTICS
                                     - ICARO, UNC
                                     - Duración 40 hs</li>
-                                <li>2021
+                                <li id="c7">2021
                                     - CURSO MAESTRO DE PYTHON 3
                                     - Udemy
                                     - Instructor Héctor Costa Guzmán</li>
-                                <li>2011
+                                <li id="c8">2011
                                     - CURSO DE MICROCONTROLADORES PIC.
                                     - Universidad Tecnológica Nacional
                                     - Facultad Regional de Córdoba</li>
-                                <li>2011
+                                <li id="c9">2011
                                     - CURSO DE CAPACITACIÓN PROFECIONAL EN ARMADO, REPARACIÓN Y
                                     - MANTENIMIENTO DE PC.
                                     - C.UNIX Consultora Informática</li>
@@ -208,7 +216,7 @@
                     <table class="table table-striped">
                         <tr>
         
-                            <td>31 años</td>
+                            <td id="edad_2">31 años</td>
                     
                             <td>Córdoba, Argentina</td>
                         </tr>
@@ -219,7 +227,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a class="btn btn-success" href="src/Cuenca Antonio D.pdf" download="Cuenca Antonio D">Descargar CV</a>
+                                <a id="des_2" class="btn btn-success" href="src/Cuenca Antonio D.pdf" download="Cuenca Antonio D">Descargar CV</a>
                             </td>
                         </tr>
                     </table>
